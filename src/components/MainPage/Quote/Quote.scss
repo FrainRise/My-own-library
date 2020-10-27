@@ -1,0 +1,23 @@
+.quote-section {
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    text-align: center;
+
+    .quote-wrapper {
+        width: 900px;
+        margin: 0 auto;
+
+        .quote {
+            float: left;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-style: italic;
+            font-size: 38px;
+            color: #ffffff;
+        }
+        .quote-text {
+            padding: 100px 0;
+        }
+    }
+}
