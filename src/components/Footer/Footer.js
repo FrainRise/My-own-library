@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.scss'
 
 const Footer = () => {
     return ( 
-        <div>
-            <h2>Footer component</h2>
+        <div className="footer-section">
+            <h2 className="footer-copyright">© Copyright 2020 My Own Library — All Rights Reserved </h2>
         </div>
      );
 }
