@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './responsive-main.scss'
 import {Introduction, Quote, AboutUs, ContactUs} from './index'
 
 const introQuote = {

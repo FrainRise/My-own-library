@@ -2,6 +2,41 @@
     width: 100%;
     height: 100px;
     background-color: #E5CEAB;
+    display: inline-block;
+
+    .hamburger-menu {
+        display: none;
+        margin: 25px 5px 2px 25px;
+        cursor: pointer;
+
+        .first-bar, .second-bar, .third-bar {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            border-radius: 25px;
+            transition: all 0.4s ease-in;
+        }
+    }
+
+    .clicked {
+        .first-bar {
+            -webkit-transform: rotate(225deg) translate(-15px, 6px);
+            transform: rotate(225deg) translate(-15px, 6px);
+        }
+
+        .second-bar {
+            opacity: 0;
+            -webkit-transform: rotate(360deg);
+            transform: translate(20px);
+        }
+
+        .third-bar {
+            -webkit-transform: rotate(135deg) translate(-20px, 2px);
+            transform: rotate(135deg) translate(-21px, 1px);
+        }  
+    }
+
 
     .navbar-list {
         height: inherit;
