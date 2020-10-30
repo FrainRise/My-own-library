@@ -12,9 +12,26 @@ class Navbar extends React.Component {
         this.setState({ isToggled: !this.state.isToggled})
     }
 
+    componentDidMount(){
+        const header = document.getElementById('navHeader');
+        const sticky = header.offsetTop;
+
+        const scrollCallback = window.addEventListener('scroll', () =>{
+            if(window.pageYOffset > sticky){
+                header.classList.add('sticky')
+            } else {
+                header.classList.remove('sticky')
+            }
+        })
+
+        return () => {
+            window.removeEventListener('scroll', scrollCallback)
+        }
+    }
+
     render(){
         return ( 
-            <nav className="navbar">
+            <nav className="navbar" id="navHeader">
                 <div className={this.state.isToggled ? 'hamburger-menu clicked': 'hamburger-menu'} onClick={this.toggleNavBtn}>
                     <div className="first-bar"></div>
                     <div className="second-bar"></div>

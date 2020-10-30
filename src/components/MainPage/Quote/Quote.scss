@@ -4,7 +4,10 @@
 
     .quote-wrapper {
         margin: 0 auto;
-
+        display: flex !important;
+        flex-direction: column;
+        justify-content: flex-start;
+        
         .quote {
             font-family: 'Roboto', sans-serif;
             font-style: italic;
