@@ -1,83 +1,48 @@
 .contact-section {
-    width: 100%;
-    height: 1000px;
     display: flex;
 
     .contact-descr-container {
-        width: 50%;
 
         .contact-title {
-            padding: 75px 0 0 10%;
             color: #000000;
-            font-size: 40px;
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
         }
 
         .contact-descr {
-            padding: 75px 30% 0 10%;
             color: #858585;
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
-            font-size: 35px;
-            line-height: 45px;
         }
     }
 
     .contact-form-container {
-        width: 50%;
         display: flex;
         flex-direction: column;
         
         .contact-form {
-            width: 100%;
-            padding: 10% 0 10% 0;
-                                        
             label {
                 font-family: 'Roboto', sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 30px;
-                line-height: 45px;
                 color: #000000;               
             }
             input, textarea {
-                font-size: 25px;
-                font-family: 'Quando', serif;
-                padding-left: 5%;
+                font-family: 'Quando', serif;;
                 background: #EAEAEA;
                 border: none;
             }
 
             .form-row{
                 display: flex;
-                width: 100%;
-                
-                .custom-input-block input, label {
-                    display: block;
-                }
-                
-                .custom-input-block {
-                    width: 50%;
-
-                    input {
-                        width: 400px;
-                        height: 60px;
-                    }
-                }
 
                 .btn__submit {
-                    width: 240px;
-                    height: 80px;
                     background: #FFEDD2;
-                    border-radius: 50px;
                     border: none;
                     color: #000000;
-                    font-size: 30px;
                     font-weight: bold;
                     font-family: 'Roboto', sans-serif;
                     text-transform: uppercase;
-                    letter-spacing: 0.1em;
                     cursor: pointer;
                     transition: all .5s ease-in;
                 }
@@ -90,24 +55,10 @@
             }
 
             .row-topic {
-                margin: 5% 0 5% 0;
                 display: block;
-                width: 100%;
-
-                input {
-                    width: 92%;
-                    height: 60px;
-                }
             }
             .row-message {
-                margin: 5% 0 5% 0;
                 display: block;
-                width: 100%;
-
-                textarea {
-                    width: 92%;
-                    height: 300px;
-                }
             }
         }
     }

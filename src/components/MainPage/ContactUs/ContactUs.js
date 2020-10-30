@@ -13,7 +13,7 @@ const ContactUs = () => {
             </div>
             <div className="contact-form-container">
                 <form className="contact-form">
-                    <div className="form-row">
+                    <div className="form-row row-user">
                         <div className="custom-input-block">
                             <label htmlFor="userEmail">Email</label>
                             <input className="user-data-input" type="text" id="userEmail" name="userEmail"/>
