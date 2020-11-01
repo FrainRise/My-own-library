@@ -1,6 +1,7 @@
 import React from 'react'
 import './responsive-main.scss'
 import {Introduction, Quote, AboutUs, ContactUs} from './index'
+import Addresses from './Addresses/Addresses'
 
 const introQuote = {
     id: 1, 
@@ -20,6 +21,7 @@ const MainPage = () => {
             <Quote data={introQuote} />
             <AboutUs />
             <ContactUs />
+            <Addresses />
             <Quote data={lastQuote} />
         </div>
     );

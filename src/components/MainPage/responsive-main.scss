@@ -147,7 +147,7 @@
     /* CONTACT COMPONENT */
      .contact-section {
         width: 100%;
-        height: 1300px;
+        height: 1100px;
         display: block !important;
     
         .contact-descr-container {
@@ -236,6 +236,50 @@
                         width: 91%;
                         height: 300px;
                     }
+                }
+            }
+        }
+    }
+
+    /* ADDRESSES COMPONENT */
+    .addresses-section {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column-reverse;
+    
+        .addresses_map {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+            .map {
+                padding: 0 0 0 0;
+                width: 310px;
+                height: 210px;
+            }
+        }
+    
+        .addresses-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;   
+
+            .custom-column {
+                width: 100%;
+                margin: 0 2% 5% 2%;
+    
+                .address-title {
+                    font-size: 30px;
+                    line-height: 45px;
+                    letter-spacing: 0.1em;
+                }
+    
+                .address-text {
+                    font-size: 20px;
+                    line-height: 20px;
+                    letter-spacing: 0.1em;
                 }
             }
         }
@@ -436,6 +480,45 @@
             }
         }
     }
+
+    /* ADDRESSES COMPONENT */
+    .addresses-section {
+        width: 100%;
+        height: 400px;
+        display: flex;
+    
+        .addresses_map {
+            width: 50%;
+            
+            .map {
+                padding: 0 0 0 3%;
+                width: 320px;
+                height: 210px;
+            }
+        }
+    
+        .addresses-wrapper {
+            width: 50%;
+            display: flex;
+    
+            .custom-column {
+                width: 50%;
+                margin: 0 2% 0 2%;
+    
+                .address-title {
+                    font-size: 25px;
+                    line-height: 45px;
+                    letter-spacing: 0.1em;
+                }
+    
+                .address-text {
+                    font-size: 15px;
+                    line-height: 20px;
+                    letter-spacing: 0.1em;
+                }
+            }
+        }
+    }
  }
 
  /* Large devices (laptops/desktops, 992px and up) */
@@ -604,6 +687,45 @@
                         width: 92%;
                         height: 300px;
                     }
+                }
+            }
+        }
+    }
+
+    /* ADDRESSES COMPONENT */
+    .addresses-section {
+        width: 100%;
+        height: 400px;
+        display: flex;
+    
+        .addresses_map {
+            width: 50%;
+            
+            .map {
+                padding: 0 0 0 10%;
+                width: 350px;
+                height: 250px;
+            }
+        }
+    
+        .addresses-wrapper {
+            width: 50%;
+            display: flex;
+    
+            .custom-column {
+                width: 50%;
+                margin: 0 5% 0 5%;
+    
+                .address-title {
+                    font-size: 30px;
+                    line-height: 45px;
+                    letter-spacing: 0.1em;
+                }
+    
+                .address-text {
+                    font-size: 20px;
+                    line-height: 20px;
+                    letter-spacing: 0.1em;
                 }
             }
         }
@@ -781,6 +903,45 @@
             }
         }
     }
+
+    /* ADDRESSES COMPONENT */
+    .addresses-section {
+        width: 100%;
+        height: 500px;
+        display: flex;
+    
+        .addresses_map {
+            width: 50%;
+            
+            .map {
+                padding: 0 0 0 10%;
+                width: 70%;
+                height: 350px;
+            }
+        }
+    
+        .addresses-wrapper {
+            width: 50%;
+            display: flex;
+    
+            .custom-column {
+                width: 50%;
+                margin: 0 5% 0 5%;
+    
+                .address-title {
+                    font-size: 30px;
+                    line-height: 45px;
+                    letter-spacing: 0.1em;
+                }
+    
+                .address-text {
+                    font-size: 20px;
+                    line-height: 20px;
+                    letter-spacing: 0.1em;
+                }
+            }
+        }
+    }
  }
 
  @media only screen and (min-width: 1800px) { 
@@ -951,6 +1112,45 @@
                         width: 92%;
                         height: 300px;
                     }
+                }
+            }
+        }
+    }
+
+    /* ADDRESSES COMPONENT */
+    .addresses-section {
+        width: 100%;
+        height: 600px;
+        display: flex;
+    
+        .addresses_map {
+            width: 50%;
+            
+            .map {
+                padding: 0 0 0 10%;
+                width: 650px;
+                height: 450px;
+            }
+        }
+    
+        .addresses-wrapper {
+            width: 50%;
+            display: flex;
+    
+            .custom-column {
+                width: 50%;
+                margin: 0 5% 0 5%;
+    
+                .address-title {
+                    font-size: 30px;
+                    line-height: 45px;
+                    letter-spacing: 0.1em;
+                }
+    
+                .address-text {
+                    font-size: 20px;
+                    line-height: 20px;
+                    letter-spacing: 0.1em;
                 }
             }
         }

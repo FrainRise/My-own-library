@@ -1,8 +1,8 @@
 import React from 'react'
 import './AboutUs.scss'
 
-import firstPhoto from '../../../assets/images/main-image-1.jpg'
-import secondPhoto from '../../../assets/images/main-image-2.jpg'
+import firstPhoto from '../../../assets/images/main-page/main-image-1.jpg'
+import secondPhoto from '../../../assets/images/main-page/main-image-2.jpg'
 
 const AboutUs = () => {
     return ( 

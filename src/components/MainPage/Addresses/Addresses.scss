@@ -1,0 +1,33 @@
+.addresses-section {
+    background: #ffffff;
+
+    .addresses_map {    
+        .map {
+            filter: grayscale(1);
+            transition: all .5s ease-in-out;
+        }
+
+        .map:hover {
+            transition: all .5s ease-in-out;
+            filter: grayscale(0);
+        }
+    }
+
+    .addresses-wrapper {
+
+        .custom-column {
+
+            .address-title {
+                color: #000000;
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+            }
+
+            .address-text {
+                color: #6C6C6C;
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}
