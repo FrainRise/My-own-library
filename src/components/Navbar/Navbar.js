@@ -3,6 +3,8 @@ import './Navbar.scss'
 import './responsive-navbar.scss'
 import logo from '../../assets/images/logo_MyOwnLibrary.png'
 
+import { NavLink } from 'react-router-dom'
+
 class Navbar extends React.Component {
     state = {
         isToggled: false
@@ -38,8 +40,12 @@ class Navbar extends React.Component {
                     <div className="third-bar"></div>
                 </div>
                 <ul className={this.state.isToggled ? 'navbar-list show-list': 'navbar-list hide-list'}>
-                    <li className="navbar-list__links">Home</li>
-                    <li className="navbar-list__links">About</li>
+                    <NavLink to="/" style={{textDecoration: 'none'}}>
+                        <li className="navbar-list__links">Home</li>
+                    </NavLink>
+                    <NavLink to="/about-us" style={{textDecoration: 'none'}}>
+                        <li className="navbar-list__links">About</li>
+                    </NavLink>
                     <a href="/#"><img className="navbar-list__logo" src={logo} alt="Logo"/></a>
                     <li className="navbar-list__links">Library</li>
                     <li className="navbar-list__links">Booklist</li>

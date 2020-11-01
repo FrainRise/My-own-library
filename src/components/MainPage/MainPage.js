@@ -1,15 +1,13 @@
 import React from 'react'
 import './responsive-main.scss'
-import {Introduction, Quote, AboutUs, ContactUs} from './index'
-import Addresses from './Addresses/Addresses'
+import {Introduction, Quote, AboutUs, ContactUs, Addresses} from './index'
+
 
 const introQuote = {
-    id: 1, 
     author: 'Neil Gaiman', 
     quoteText: 'A book is a dream that you hold in your hands.'
 }
 const lastQuote = {
-    id: 2, 
     author: 'Jhumpa Lahiri', 
     quoteText: 'That’s the thing about books. They let you travel without moving your feet.'
 }
