@@ -1,0 +1,39 @@
+.advantage-section {
+    width: 100%;
+    height: 850px;
+    background: rgb(248, 248, 248);
+    text-align: center;
+
+    .advantage-title {
+        padding-top: 5%;
+        color: #000000;
+        font-family: 'Quando', sans-serif;
+        font-size: 60px;
+        line-height: 75px;
+        text-transform: uppercase;
+    }
+
+    .advantage-block {
+        padding-top: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        .custom-div{
+            width: 20%;
+            .advantage-image {
+                width: 128px;
+                height: 128px;
+            }
+    
+            .advantage-name {
+                margin-top: 10%;
+                color: #000000;
+                font-family: 'Quando', sans-serif;
+                font-size: 30px;
+                line-height: 37px;
+                text-transform: uppercase;
+            }
+        }  
+    }
+}

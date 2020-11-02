@@ -1,0 +1,36 @@
+.hardwg-section {
+    width: 100%;
+    height: 600px;
+    background: #000000;
+    display: flex;
+
+    .hardwg-block-image {
+        width: 50%;
+
+        .hardwg-image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .hard-block-text {
+        width: 50%;
+
+        .hardwg-title {
+            margin: 7% 10% 0 10%;
+            color: #ffffff;
+            font-family: 'Quando', serif;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .hardwg-text {
+            text-align: justify;
+            margin: 10% 10% 0 10%;
+            color: #ffffff;
+            font-family: 'Quando', serif;
+            font-size: 35px;
+            line-height: 40px;
+        }
+    }
+}

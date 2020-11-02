@@ -3,6 +3,7 @@
     height: 100px;
     background-color: #E5CEAB;
     display: inline-table;
+    transition: all .5s ease-in;
 
     .hamburger-menu {
         display: none;
@@ -72,4 +73,5 @@
     -webkit-box-shadow: 0px 15px 38px -9px rgba(0,0,0,0.53);
     -moz-box-shadow: 0px 15px 20px -9px rgba(0,0,0,0.53);
     box-shadow: 0px 10px 38px -9px rgba(0,0,0,0.53);
+    transition: all 1s ease-out;
 }
