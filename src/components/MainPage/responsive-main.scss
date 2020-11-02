@@ -147,7 +147,7 @@
     /* CONTACT COMPONENT */
      .contact-section {
         width: 100%;
-        height: 1100px;
+        height: 120vh;
         display: block !important;
     
         .contact-descr-container {
@@ -282,19 +282,6 @@
                     letter-spacing: 0.1em;
                 }
             }
-        }
-    }
-    
-    /* FOOTER COMPONENT */
-    .footer-section{
-        width: 100%;
-        height: 70px;
-        text-align: center; 
-        .footer-copyright{
-            padding: 0 10%;
-            font-size: 17px;
-            line-height: 25px;
-            letter-spacing: 0.1rem;
         }
     }
  }
@@ -674,7 +661,7 @@
                     width: 100%;
     
                     input {
-                        width: 92%;
+                        width: 95%;
                         height: 60px;
                     }
                 }
@@ -684,7 +671,7 @@
                     width: 100%;
     
                     textarea {
-                        width: 92%;
+                        width: 95%;
                         height: 300px;
                     }
                 }
@@ -886,7 +873,7 @@
                     width: 100%;
     
                     input {
-                        width: 92%;
+                        width: 95%;
                         height: 60px;
                     }
                 }
@@ -896,7 +883,7 @@
                     width: 100%;
     
                     textarea {
-                        width: 92%;
+                        width: 95%;
                         height: 300px;
                     }
                 }
@@ -932,11 +919,12 @@
                     font-size: 30px;
                     line-height: 45px;
                     letter-spacing: 0.1em;
+                    margin-bottom: 5%;
                 }
     
                 .address-text {
                     font-size: 20px;
-                    line-height: 20px;
+                    line-height: 35px;
                     letter-spacing: 0.1em;
                 }
             }
@@ -1099,7 +1087,7 @@
                     width: 100%;
     
                     input {
-                        width: 92%;
+                        width: 95%;
                         height: 60px;
                     }
                 }
@@ -1109,7 +1097,7 @@
                     width: 100%;
     
                     textarea {
-                        width: 92%;
+                        width: 95%;
                         height: 300px;
                     }
                 }
@@ -1145,7 +1133,7 @@
                     font-size: 30px;
                     line-height: 45px;
                     letter-spacing: 0.1em;
-                    margin-bottom: 50px;
+                    margin-bottom: 5%;
                 }
     
                 .address-text {
@@ -1155,18 +1143,5 @@
                 }
             }
         }
-    }
-
-    /* FOOTER COMPONENT */
-    .footer-section{
-        width: 100%;
-        height: 70px;
-
-        .footer-copyright{
-            font-size: 23px;
-            line-height: 45px;
-            letter-spacing: 0.1rem;
-        }
-    }
-    
+    }  
 }

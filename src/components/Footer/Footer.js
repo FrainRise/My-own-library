@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss'
-import '../MainPage/responsive-main.scss'
+import './responsive-footer.scss'
 
 
 const Footer = () => {
