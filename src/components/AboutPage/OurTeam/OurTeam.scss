@@ -1,0 +1,97 @@
+.ourteam-section {
+    width: 100%;
+    text-align: center;
+
+    .ourteam-title {
+        padding-top: 4%;
+        color: #000000;
+        font-family: 'Quando', sans-serif;
+        font-size: 60px;
+        line-height: 75px;
+        text-transform: uppercase;
+    }
+
+    .slider{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 100px 0px 100px 0px;
+    
+        .slider-items {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+    
+                .arrow {
+                    color: #707070;
+                    height: 80px;
+                    cursor: pointer;
+                }
+
+                .slider-text {
+                    width: 800px;
+
+                    .img-container{
+                        position: relative;
+                        width: 50%;
+                        max-width: 250px;
+                        max-height: 300px;
+                        margin: 0 auto;
+
+                        .mate-photo {
+                            width: 250px;
+                            height: 300px;
+                            border-radius: 50px;
+                        }
+
+                        .overlay {
+                            position: absolute; 
+                            bottom: 0; 
+                            background: rgb(0, 0, 0);
+                            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+                            color: #f1f1f1; 
+                            width: 100%;
+                            transition: .5s ease;
+                            opacity:0;
+                            color: white;
+                            font-size: 20px;
+                            padding: 20px;
+                            text-align: center;
+                            border-radius: 0 0 50px 50px;
+                        }    
+                    }
+
+                    .img-container:hover .overlay {
+                        opacity: 1;
+                        z-index: 5;
+                      
+                    }
+
+                    .mate-name{
+                        color: #000000;
+                        font-family: 'Quando', sans-serif;
+                        font-size: 40px;
+                        line-height: 56px;
+                        text-transform: capitalize;
+                    }
+
+                    .slide {
+                        display: none;
+                        max-width: 900px;
+                        text-align: center;
+                        transition: all .5s ease-in;
+                    }
+                      
+                    .active {
+                        display: block;
+                        transition: all .5s ease-in;
+                    }
+                }
+          }
+    }
+}
+
