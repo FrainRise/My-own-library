@@ -16,13 +16,16 @@ class Navbar extends React.Component {
 
     componentDidMount(){
         const header = document.getElementById('navHeader');
+        const navbarList = document.getElementById('navbarList')
         const sticky = header.offsetTop;
 
         const scrollCallback = window.addEventListener('scroll', () =>{
             if(window.pageYOffset > sticky){
                 header.classList.add('sticky')
+                navbarList.classList.add('sticky-ul')
             } else {
                 header.classList.remove('sticky')
+                navbarList.classList.remove('sticky-ul')
             }
         })
 
@@ -39,7 +42,7 @@ class Navbar extends React.Component {
                     <div className="second-bar"></div>
                     <div className="third-bar"></div>
                 </div>
-                <ul className={this.state.isToggled ? 'navbar-list show-list': 'navbar-list hide-list'}>
+                <ul id="navbarList" className={this.state.isToggled ? 'navbar-list show-list': 'navbar-list hide-list'}>
                     <NavLink to="/" style={{textDecoration: 'none'}}>
                         <li className="navbar-list__links">Home</li>
                     </NavLink>

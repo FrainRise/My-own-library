@@ -1,0 +1,685 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 768px) {
+    /* ABOUT-INTRO COMPONENT */
+    .about-intro-section {
+        width: 100%;
+        height: 500px;
+    
+        .intro-title {
+            padding-top: 25%;
+            font-size: 30px;
+            line-height: 45px;  
+        }
+    
+        .intro-text {
+            margin-top: 50px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+
+    /* ABOUT COMPONENT */
+    .about-page-section{
+        width: 100%;
+        height: 650px;
+        display: block !important;
+    
+        .about-block-text {
+            width: 100%;
+            height: 50%;
+    
+            .about-title {
+                padding: 7% 10% 0 10%;
+                font-size: 20px;
+                line-height: 25px;
+            }   
+    
+            .about-text {
+                margin: 5% 10% 0 10%;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    
+        .about-block-image {
+            width: 100%;
+            height: 50%;
+    
+            .about-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+     /* ADVANTAGE COMPONENT */
+     .advantage-section {
+        width: 100%;
+        height: 1600px;
+    
+        .advantage-title {
+            padding-top: 5%;
+            font-size: 30px;
+            line-height: 45px;
+        }
+    
+        .advantage-block {
+            padding-top: 50px;
+            display: block !important;
+            margin: 0 auto;
+            
+            .custom-div{
+                 width:100%;
+                 padding-top: 50px;
+
+                .advantage-image {
+                    width: 128px;
+                    height: 128px;
+                }
+        
+                .advantage-name {
+                    margin-top: 2%;
+                    font-size: 25px;
+                    line-height: 37px;
+                }
+            }  
+        }
+    }
+
+    /* HARD-WORKING COMPONENT */
+    .hardwg-section {
+        width: 100%;
+        height: 600px;
+        display: block !important;
+        
+        .hardwg-block-image {
+            width: 100%;
+            height: 50%;
+    
+            .hardwg-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .hard-block-text {
+            width: 100%;
+            height: 50%;
+    
+            .hardwg-title {
+                margin: 7% 10% 0 10%;
+                font-size: 20px;
+                line-height: 25px;
+            }
+    
+            .hardwg-text {
+                margin: 5% 10% 0 10%;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    /* OURTEAM COMPONENT */
+    .ourteam-section {
+        width: 100%;
+    
+        .ourteam-title {
+            padding-top: 4%;
+            font-size: 30px;
+            line-height: 45px;
+        }
+        .slider{
+            width: 70%;
+            padding: 100px 0px 100px 0px;
+            margin: 0 auto;
+        
+            .slider-items {
+        
+                    .arrow {
+                        height: 40px;
+                    }
+    
+                    .slider-text {
+                        width: 800px;
+    
+                        .img-container{
+                            width: 100%;
+                            max-width: 150px;
+                            max-height: 200px;
+                            margin: 0 auto;
+    
+                            .mate-photo {
+                                width: 150px;
+                                height: 200px;
+                            }
+    
+                            .overlay {
+                                width: 100%;
+                                font-size: 15px;
+                                padding: 10px;
+                            }    
+                        }
+
+                        .mate-name{
+                            font-size: 30px;
+                            line-height: 56px;
+                        }
+    
+                        .slide {
+                            max-width: 600px;
+                        }
+                    }
+              }
+        }
+    }
+    
+ }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* ABOUT-INTRO COMPONENT */
+    .about-intro-section {
+        width: 100%;
+        height: 500px;
+    
+        .intro-title {
+            padding-top: 15%;
+            font-size: 40px;
+            line-height: 45px;  
+        }
+    
+        .intro-text {
+            margin-top: 50px;
+            font-size: 30px;
+            line-height: 25px;
+        }
+    }
+
+    /* ABOUT COMPONENT */
+    .about-page-section{
+        width: 100%;
+        height: 400px;
+    
+        .about-block-text {
+            width: 50%;
+    
+            .about-title {
+                margin: 7% 10% 0 10%;
+                font-size: 25px;
+                line-height: 30px;
+            }
+    
+            .about-text {
+                margin: 10% 10% 0 10%;
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    
+        .about-block-image {
+            width: 50%;
+    
+            .about-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    /* ADVANTAGE COMPONENT */
+    .advantage-section {
+        width: 100%;
+        height: 800px;
+    
+        .advantage-title {
+            padding-top: 5%;
+            font-size: 40px;
+            line-height: 75px;
+        }
+    
+        .advantage-block {
+            padding-top: 5%;
+            justify-content: space-around !important;
+            
+            .custom-div{
+                width: 20%;
+                padding-top: 5%;
+                text-align: center;
+                .advantage-image {
+                    width: 128px;
+                    height: 128px;
+                }
+        
+                .advantage-name {
+                    margin-top: 10%;
+                    font-size: 20px;
+                    line-height: 27px;
+                    word-wrap: break-word;
+                }
+            }  
+        }
+    }
+    /* HARD-WORKING COMPONENT */
+    .hardwg-section {
+        width: 100%;
+        height: 400px;
+        
+        .hardwg-block-image {
+            width: 50%;
+    
+            .hardwg-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .hard-block-text {
+            width: 50%;
+    
+            .hardwg-title {
+                margin: 7% 10% 0 10%;
+                font-size: 25px;
+                line-height: 30px;
+            }
+    
+            .hardwg-text {
+                margin: 5% 10% 0 10%;
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    /* OURTEAM COMPONENT */
+    .ourteam-section {
+        width: 100%;
+    
+        .ourteam-title {
+            padding-top: 4%;
+            font-size: 60px;
+            line-height: 75px;
+        }
+        .slider{
+            width: 80%;
+            padding: 100px 0px 100px 0px;
+            margin: 0 auto;
+        
+            .slider-items {
+        
+                    .arrow {
+                        height: 80px;
+                    }
+    
+                    .slider-text {
+                        width: 800px;
+    
+                        .img-container{
+                            width: 80%;
+                            max-width: 250px;
+                            max-height: 300px;
+                            margin: 0 auto;
+    
+                            .mate-photo {
+                                width: 250px;
+                                height: 300px;
+                            }
+    
+                            .overlay {
+                                width: 100%;
+                                font-size: 20px;
+                                padding: 20px;
+                            }    
+                        }
+
+                        .mate-name{
+                            font-size: 40px;
+                            line-height: 56px;
+                        }
+    
+                        .slide {
+                            max-width: 900px;
+                        }
+                    }
+              }
+        }
+    }
+  }
+
+   /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 993px) and (max-width: 1199px) {
+    /* ABOUT-INTRO COMPONENT */
+    .about-intro-section {
+        width: 100%;
+        height: 600px;
+    
+        .intro-title {
+            padding-top: 150px;
+            font-size: 50px;
+            line-height: 75px;  
+        }
+    
+        .intro-text {
+            margin-top: 70px;
+            font-size: 35px;
+            line-height: 50px;
+        }
+    }
+
+    /* ABOUT COMPONENT */
+    .about-page-section{
+        width: 100%;
+        height: 400px;
+    
+        .about-block-text {
+            width: 50%;
+    
+            .about-title {
+                margin: 7% 10% 0 10%;
+                font-size: 30px;
+                line-height: 30px;
+            }
+    
+            .about-text {
+                margin: 5% 10% 0 10%;
+                font-size: 20px;
+                line-height: 35px;
+            }
+        }
+    
+        .about-block-image {
+            width: 50%;
+    
+            .about-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    /* ADVANTAGE COMPONENT */
+    .advantage-section {
+        width: 100%;
+        height: 800px;
+    
+        .advantage-title {
+            padding-top: 5%;
+            font-size: 50px;
+            line-height: 75px;
+        }
+    
+        .advantage-block {
+            padding-top: 5%;
+            justify-content: center !important;
+            
+            .custom-div{
+                width: 30%;
+                padding-top: 5%;
+                text-align: center;
+                .advantage-image {
+                    width: 128px;
+                    height: 128px;
+                }
+        
+                .advantage-name {
+                    margin-top: 10%;
+                    font-size: 25px;
+                    line-height: 27px;
+                }
+            }  
+        }
+    }
+
+    /* HARD-WORKING COMPONENT */
+    .hardwg-section {
+        width: 100%;
+        height: 400px;
+        
+        .hardwg-block-image {
+            width: 50%;
+    
+            .hardwg-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .hard-block-text {
+            width: 50%;
+    
+            .hardwg-title {
+                margin: 7% 10% 0 10%;
+                font-size: 30px;
+                line-height: 30px;
+            }
+    
+            .hardwg-text {
+                margin: 5% 10% 0 10%;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    /* OURTEAM COMPONENT */
+    .ourteam-section {
+        width: 100%;
+    
+        .ourteam-title {
+            padding-top: 4%;
+            font-size: 60px;
+            line-height: 75px;
+        }
+        .slider{
+            width: 50%;
+            padding: 100px 0px 100px 0px;
+            margin: 0 auto;
+        
+            .slider-items {
+        
+                    .arrow {
+                        height: 80px;
+                    }
+    
+                    .slider-text {
+                        width: 800px;
+    
+                        .img-container{
+                            width: 50%;
+                            max-width: 250px;
+                            max-height: 300px;
+                            margin: 0 auto;
+    
+                            .mate-photo {
+                                width: 250px;
+                                height: 300px;
+                            }
+    
+                            .overlay {
+                                width: 100%;
+                                font-size: 20px;
+                                padding: 20px;
+                            }    
+                        }
+
+                        .mate-name{
+                            font-size: 40px;
+                            line-height: 56px;
+                        }
+    
+                        .slide {
+                            max-width: 900px;
+                        }
+                    }
+              }
+        }
+    }
+ }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+     /* ABOUT-INTRO COMPONENT */
+     .about-intro-section {
+        width: 100%;
+        height: 890px;
+    
+        .intro-title {
+            padding-top: 300px;
+            font-size: 60px;
+            line-height: 75px;  
+        }
+    
+        .intro-text {
+            margin-top: 100px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    /* ABOUT COMPONENT */
+    .about-page-section{
+        width: 100%;
+        height: 600px;
+    
+        .about-block-text {
+            width: 50%;
+    
+            .about-title {
+                margin: 7% 10% 0 10%;
+                font-size: 40px;
+                line-height: 50px;
+            }
+    
+            .about-text {
+                margin: 7% 10% 0 10%;
+                font-size: 35px;
+                line-height: 100%;
+            }
+        }
+    
+        .about-block-image {
+            width: 50%;
+    
+            .about-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    /* ADVANTAGE COMPONENT */
+    .advantage-section {
+        width: 100%;
+        height: 850px;
+    
+        .advantage-title {
+            padding-top: 5%;
+            font-size: 60px;
+            line-height: 75px;
+        }
+    
+        .advantage-block {
+            padding-top: 5%;
+            
+            .custom-div{
+                width: 20%;
+                .advantage-image {
+                    width: 128px;
+                    height: 128px;
+                }
+        
+                .advantage-name {
+                    margin-top: 10%;
+                    font-size: 30px;
+                    line-height: 37px;
+                }
+            }  
+        }
+    }
+
+    /* HARD-WORKING COMPONENT */
+    .hardwg-section {
+        width: 100%;
+        height: 600px;
+
+        .hardwg-block-image {
+            width: 50%;
+    
+            .hardwg-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .hard-block-text {
+            width: 50%;
+    
+            .hardwg-title {
+                margin: 7% 10% 0 10%;
+                font-size: 40px;
+                line-height: 50px;
+            }
+    
+            .hardwg-text {
+                margin: 7% 10% 0 10%;
+                font-size: 35px;
+                line-height: 100%;
+            }
+        }
+    }
+
+    /* OURTEAM COMPONENT */
+    .ourteam-section {
+        width: 100%;
+    
+        .ourteam-title {
+            padding-top: 4%;
+            font-size: 60px;
+            line-height: 75px;
+        }
+        .slider{
+            width: 50%;
+            padding: 100px 0px 100px 0px;
+            margin: 0 auto;
+        
+            .slider-items {
+        
+                    .arrow {
+                        height: 80px;
+                    }
+    
+                    .slider-text {
+                        width: 800px;
+    
+                        .img-container{
+                            width: 50%;
+                            max-width: 250px;
+                            max-height: 300px;
+                            margin: 0 auto;
+    
+                            .mate-photo {
+                                width: 250px;
+                                height: 300px;
+                            }
+    
+                            .overlay {
+                                width: 100%;
+                                font-size: 20px;
+                                padding: 20px;
+                            }    
+                        }
+
+                        .mate-name{
+                            font-size: 40px;
+                            line-height: 56px;
+                        }
+    
+                        .slide {
+                            max-width: 900px;
+                        }
+                    }
+              }
+        }
+    }
+  }
