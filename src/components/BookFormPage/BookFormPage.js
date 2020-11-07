@@ -1,5 +1,6 @@
 import React from 'react'
 import './BookFormPage.scss'
+import './responsive-bookform.scss'
 
 const BookFormPage = () => {
     return ( 

@@ -1,38 +1,25 @@
 .book-form-page {
-    width: 100%;
-    height: 200vh;
     background: #E5CEAB;
     
     .divine {
-        width: 100%;
-        height: 10px;
         background: #E5CEAB;    
     }
 
     .book-form {
-        width: 47%;
-        margin: 70px auto;
         background-color: #ffffff;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         
         .form-header {
-            padding: 2%;
 
             .form-title {
-                margin: 5% 5%;
                 color: #000000;
                 font-family: 'Quando', sans-serif;
-                font-size: 30px;
-                line-height: 37px;
             }
             
             .title-description {
-                margin: 5% 5%;
                 color: #828282;
                 font-family: 'Quando', sans-serif;
-                font-size: 20px;
-                line-height: 25px;
             }
 
             .divine-line {
@@ -42,70 +29,34 @@
         }
 
         .form-input-section {
-            padding: 4%;
-            display: flex;
-            flex-direction: column;
 
             .form-custom-row {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                padding: 2% 0;
                 
                 .form-custom-column {
-                    display: flex;
-                    flex-direction: column;
 
                     .form-label {
-                        padding: 4% 0;
                         color: #000000;
                         font-family: 'Roboto', sans-serif;
                         font-weight: bold;
-                        font-size: 25px;
-                        line-height: 35px;
                     }
 
-                    .form-input {
-                        height: 40px; 
-                        width: 300px;           
+                    .form-input {          
                         border: none;      
                         background: #EAEAEA;
                         font-family: 'Quando', serif;
-                        font-size: 15px;
-                        padding: 0 10%;
-                    }
-
-                    textarea {
-                        height: 130px !important;
-                        width: 710px !important;
-                        padding: 0 3% !important;
                     }
                 }
-            }
-
-            .file-row {
-                display: flex;
-                justify-content: flex-start;
-                padding: 0 7%;
             }
         }
 
         .button-panel {
-            display: flex;
-            justify-content: space-between;
 
             .btn {
-                margin: 10%;
-                width: 200px;
-                height: 70px;
-                border-radius: 50px;
                 border: none;
                 color: #000000;
                 font-family: 'Roboto', sans-serif;
-                font-weight: bold;
-                font-size: 30px;
-                line-height: 40px;
                 text-align: justify;
+                border-radius: 50px;
                 letter-spacing: 0.1em;
                 text-align: center;
                 cursor: pointer;
