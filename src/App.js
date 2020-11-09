@@ -7,7 +7,7 @@ function App() {
     <React.Fragment>
       <Navbar />
       <Switch>
-        <Route path='/' component={MainPage} exact />
+        <Route path='/home' component={MainPage} exact />
         <Route path='/about-us' component={AboutPage} />
         <Route path='/add-book' component={BookFormPage} />
       </Switch>

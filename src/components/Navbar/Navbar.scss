@@ -47,8 +47,11 @@
         justify-content: space-around;
         align-items: center;
 
+        .activeLink {
+            color: #000000 !important;
+        }
+
         .navbar-list__links {
-            color: #81909B;
             font-family: 'Quando', serif;
             font-size: 26px;
             line-height: 32px;
@@ -56,6 +59,8 @@
             text-transform: uppercase;
             cursor: pointer;
         }
+
+        
 
         .navbar-list__links:hover {
             color: #000000;

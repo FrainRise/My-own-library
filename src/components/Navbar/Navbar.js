@@ -43,10 +43,10 @@ class Navbar extends React.Component {
                     <div className="third-bar"></div>
                 </div>
                 <ul id="navbarList" className={this.state.isToggled ? 'navbar-list show-list': 'navbar-list hide-list'}>
-                    <NavLink to="/" style={{textDecoration: 'none'}}>
+                    <NavLink to="/home" style={{textDecoration: 'none', color: '#81909B'}} activeClassName="activeLink">
                         <li className="navbar-list__links">Home</li>
                     </NavLink>
-                    <NavLink to="/about-us" style={{textDecoration: 'none'}}>
+                    <NavLink to="/about-us" style={{textDecoration: 'none', color: '#81909B'}} activeClassName="activeLink">
                         <li className="navbar-list__links">About</li>
                     </NavLink>
                     <a href="/#"><img className="navbar-list__logo" src={logo} alt="Logo"/></a>
